@@ -1,6 +1,8 @@
 #pragma once
 
 #include <iostream>
+#include <vector>
+#include <map>
 #include "ASpell.hpp"
 
 class Warlock
@@ -8,6 +10,9 @@ class Warlock
 private:
   std::string name;
   std::string title;
+
+  // std::vector<ASpell*> spells;
+  std::map<std::string, ASpell*> spells;
 
   Warlock();
   Warlock(const Warlock&);
@@ -23,8 +28,8 @@ public:
 
   void introduce() const;
 
-  void learnSpell(ASpell*);
-  void forgetSpell(string const &);
-  ASpell* createSpell(string const &);
+	void learnSpell(ASpell *spell);
+	void forgetSpell(std::string const &spellName);
+	void launchSpell(std::string const &spellName, ATarget const &target);
 
 };
