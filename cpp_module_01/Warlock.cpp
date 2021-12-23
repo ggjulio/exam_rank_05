@@ -30,39 +30,9 @@ void Warlock::introduce() const
   std::cout << name << ": I am " << name << ", " << title <<"!" << std::endl;
 }
 
-// void Warlock::learnSpell(ASpell *spell) {
-// 	if (spell) {
-// 		std::vector<ASpell*>::iterator ite = this->spells.end();
-// 		for (std::vector<ASpell*>::iterator it = this->spells.begin(); it != ite; ++it)
-// 			if ((*it)->getName() == spell->getName())
-// 				return ;
-// 		this->spells.push_back(spell->clone());
-// 	}
-// }
-
-// void Warlock::forgetSpell(std::string const &spellName) {
-// 	std::vector<ASpell*>::iterator ite = this->spells.end();
-// 	for (std::vector<ASpell*>::iterator it = this->spells.begin(); it != ite; ++it) {
-// 		if ((*it)->getName() == spellName) {
-// 			delete *it;
-// 			it = this->spells.erase(it);
-// 		}
-// 	}
-// }
-
-// void Warlock::launchSpell(std::string const &spellName, ATarget const &target) {
-// 	std::vector<ASpell*>::iterator ite = this->spells.end();
-// 	for (std::vector<ASpell*>::iterator it = this->spells.begin(); it != ite; ++it) {
-// 		if ((*it)->getName() == spellName) {
-// 			(*it)->launch(target);
-// 			return ;
-// 		}
-// 	}
-// }
-
 void Warlock::learnSpell(ASpell *spell) {
 	if (spell && spells.count(spell->getName()) == 0)
-		spells.insert(std::pair<std::string, ASpell*>(spell->getName(), spell));
+		spells.insert(std::pair<std::string, ASpell*>(spell->getName(), spell->clone()));
 }
 
 void Warlock::forgetSpell(std::string const &spellName) {

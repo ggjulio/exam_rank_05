@@ -11,7 +11,6 @@ private:
   std::string name;
   std::string title;
 
-  // std::vector<ASpell*> spells;
   std::map<std::string, ASpell*> spells;
 
   Warlock();
