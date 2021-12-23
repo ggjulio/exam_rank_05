@@ -4,14 +4,13 @@
 #include <vector>
 #include <map>
 #include "ASpell.hpp"
+#include "SpellBook.hpp"
 
 class Warlock
 {
 private:
   std::string name;
   std::string title;
-
-  std::map<std::string, ASpell*> spells;
 
   Warlock();
   Warlock(const Warlock&);
