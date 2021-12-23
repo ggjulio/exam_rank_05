@@ -12,7 +12,7 @@
     - No tips here, just `ctrl+c` and `ctrl+v`
  - cpp_module_01:
     - `cp ../cpp_module_00/Warlock.*pp .`
-    - 
+    - No tips here, just follow in order the subject instruction.
  - cpp_module_02:
     - `cp ../cpp_module_01/*.*pp .`
     - ASpell implementations:  `Firewall` and `Polymorph` in 2 minutes
