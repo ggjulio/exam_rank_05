@@ -9,7 +9,7 @@
 
 #### step
  - cpp_module_00:
-    - just do it
+    - No tips here, just `ctrl+c` and `ctrl+v`
  - cpp_module_01:
     - `cp ../cpp_module_00/Warlock.*pp .`
     - 
