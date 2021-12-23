@@ -5,6 +5,7 @@ Warlock::Warlock(const std::string& name, const std::string& title)
 {
   std::cout << name << ": This looks like another boring day." << std::endl;
 }
+
 Warlock::~Warlock()
 {
   std::cout << name << ": My job here is done!" << std::endl;
