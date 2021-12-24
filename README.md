@@ -1,5 +1,4 @@
 #### tips exam05 fast (aka the copy paste)
- - use the command `cd`
  - Know how to replace all occurences with emacs/vim
     - emacs ?
         - `Meta` + `x` (meta is `escape`)
