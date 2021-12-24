@@ -6,7 +6,7 @@
     - vim ?
         f*** off
  - An output is given at the end of each subject.
-   Just a diff should be enough to pass the exam.
+   Just a diff should be enough to pass the moulinette.
 
 #### step
  - cpp_module_00:
