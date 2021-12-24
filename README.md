@@ -5,7 +5,8 @@
         - `Meta` + `x` (meta is `escape`)
     - vim ?
         f*** off
- - An output is given at the end of each subject
+ - An output is given at the end of each subject.
+   Just a diff should be enough to pass the exam.
 
 #### step
  - cpp_module_00:
