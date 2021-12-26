@@ -36,10 +36,10 @@
         - create the basic coplian class + copy paste 3 function prototypes from the subject
         - open `Warlock.*pp` and move the container and the code logic into `SpellBook`
         - Update walock to call the three SpellBook's functions. And done. 
-    - TargetGenerator in 15min :
+    - TargetGenerator in lest than 20 min :
         - `cp SpellBook.hpp TargetGenerator.hpp`
             - replace all occurences of `SpellBook` by `TargetGenerator`.
-            - Copy paste the new three finction
+            - Copy paste the new three prototypes from subject. (and keep the same code logic and container from spellbook)
         - `cp SpellBook.cpp TargetGenerator.cpp`
             - replace all occurences of `SpellBook` by `TargetGenerator`.
             - Copy paste the new three finction
