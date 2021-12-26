@@ -32,7 +32,7 @@
     - `cp Dummy.cpp BrickWall.cpp`
         - Open `BrickWall.cpp` and replace all occurences of `Dummy` by `BrickWall`.
         - copy paste the right type string from subject, and done.
-    - SpellBook:
+    - SpellBook and warlock :
         - create the basic coplian class + copy paste 3 function prototypes from the subject
         - open `Warlock.*pp` and move the container and the code logic into `SpellBook`
         - Update walock to call the three SpellBook's functions. And done. 
