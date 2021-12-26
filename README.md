@@ -37,11 +37,12 @@
         - open `Warlock.*pp` and move the container and the code logic into `SpellBook`
         - Update walock to call the three SpellBook's functions. And done. 
     - TargetGenerator in lest than 20 min :
+        - keep the exact same logic code and container from spellbook. 
         - `cp SpellBook.hpp TargetGenerator.hpp`
             - replace all occurences of `SpellBook` by `TargetGenerator`.
-            - Copy paste the new three prototypes from subject. (and keep the same code logic and container from spellbook)
+            - Copy paste the new three prototypes from subject.
         - `cp SpellBook.cpp TargetGenerator.cpp`
             - replace all occurences of `SpellBook` by `TargetGenerator`.
             - Copy paste the new three finction
-            - Update getters functions, and variables names. (or not)
+            - Update getters functions call, and variables names. (or not)
     - done
